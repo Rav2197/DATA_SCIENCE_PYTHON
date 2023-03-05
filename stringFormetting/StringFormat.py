@@ -47,3 +47,9 @@ print(s6.islower())
 s7='Python'
 print(s7.istitle())
 
+# Splitting the functions
+name ='Ravi Ranjan kumar'
+first_Name, middle_Name, last_Name = name.split(' ')
+print(first_Name)
+print(middle_Name)
+print(last_Name)
